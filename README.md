@@ -7,6 +7,7 @@
 * [1. Proyecto](#1-proyecto)
 * [2. Necesidad-Problema](#2-necesidad-problema)
 * [3. Usuarios-Ayuda](#3-usuarios-ayuda)
+* [4. Diseño](#4-diseño)
 
 
 ***
@@ -26,5 +27,6 @@ Está enfocado en usuarios que sean Comandantes o Comandantes Jefe que dirigen e
 
 Por lo anterior, se crea una herramienta de mensajería interna para estas organizaciones con el objetivo de tener una comunicación más eficaz y segura. Además, puedan comunicarse de forma efectiva y ayudar a los habitantes que puedan estar en problemas.  
 
+## 4. Diseño
 
-
+Es un diseño simple y con escalas de blanco y negro con el objetivo de que pase desapercibido en caso de ser descubiertos con dicha herramienta. Es responsivo en cuanto al texto con el fin de que se pueda ajustar, independiente del dispositivo en uso. 
