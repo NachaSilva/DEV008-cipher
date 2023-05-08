@@ -1,0 +1,98 @@
+.header{
+    background-image: url("./img/fondobanner.png");
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+}
+
+.header__texto{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+   
+}
+.header_titulo{
+    margin-top: 30px;
+
+}
+
+.body{
+    box-sizing: border-box;
+   background-color: #D8D8D8;
+    
+   /* margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;*/
+}
+
+.titulo{
+    color: #0A3871;
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.clave_secreta{
+    text-align: center;
+}
+
+.clave_secreta_parrafo{
+    font-weight: bold;
+}
+
+.secciones{
+    display: flex;
+    margin-left: 14%;
+}
+
+.botones{
+    text-align: center;
+}
+
+.seccion-izquierda{
+    margin: 0px 60px 0px 60px;
+}
+
+.input-texto{
+    border-radius: 10px;
+}
+
+.encriptar{
+    color: white;
+    background: black;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.seccion-derecha{
+    margin: 0px 60px 0px 60px;
+}
+
+.desencriptar{
+    color: black;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mensaje{
+    border-radius: 10px;
+}
+
+.footer{
+    text-align: center;
+}
+

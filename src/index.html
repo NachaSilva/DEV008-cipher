@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+
+  <body class="body">
     <div id="root">
-      <h1>Hello world!</h1>
+      <header class="header">
+        <div class="header__texto">
+          <h1 class="header_titulo">Hola Comandante!</h1>
+          <h2 class="header_subtitulo">Te estábamos esperando!</h2>
+        </div>
+      </header>
+      <p class="parrafo">
+        Sabemos que estás liderando un escuadrón que se encuentra en zona de
+        peligro y que la única vía de comunicación es a través de texto.
+      </p>
+      <p class="parrafo">
+        Este sitio te permitirá encriptar el mensaje que quieras comunicar a tu
+        escucadrón sin que el enemigo lo sepa.
+      </p>
+      <p class="parrafo">
+        Por otra parte, si te llegó un mensaje encriptado y necesitas ayuda para
+        descrifrarlo, debes hacer click en desencriptar.
+      </p>
+      <p class="parrafo">
+        Recuerda que la clave secreta es el n° de desplazamientos que indica
+        cuántas posiciones quieres que el cifrado desplace cada caracter del
+        alfabeto.
+      </p>
+
+      <div class="clave_secreta">
+        <p class="clave_secreta_parrafo">Clave Secreta:</p>
+        <input
+          class="numero"
+          id="offset"
+          type="number"
+          placeholder="N° Secreto"
+          min="1"
+        />
+      </div>
+
+      <br />
+      <br />
+
+      <div class="secciones">
+        <section class="seccion-izquierda">
+          <textarea
+            class="input-texto"
+            cols="50"
+            rows="20"
+            placeholder="Ingresa el texto aquí"
+          ></textarea>
+          <div class="intrucciones">
+            <p>
+              <img src="./img/exclamacion.png"> Solo letras mayúsculas y
+              sin acentos
+            </p>
+          </div>
+          <div class="botones">
+            <button class="encriptar" id="btnEncriptar">Encriptar</button>
+            <button class="desencriptar" id="btnDesencriptar">
+              Desencriptar
+            </button>
+          </div>
+        </section>
+
+        <section class="seccion-derecha">
+          <textarea
+            class="mensaje"
+            id="resultado"
+            cols="50"
+            rows="20"
+            placeholder="En este cuadro verás el resultado"
+          ></textarea>
+        </section>
+      </div>
     </div>
+    <br />
+    <footer class="footer">
+      <p>Primer Proyecto Laboratoria - ❋Ignacia Silva❋</p>
+    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
